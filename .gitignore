@@ -1,0 +1,27 @@
+# Build output
+*.exe
+*.pdb
+bin/
+obj/
+dist/
+# Local IDE state
+.vs/
+.vscode/
+*.user
+*.suo
+# Local diagnostics and generated test logs
+/*-test*.txt
+/*-error.txt
+/appearance-preview*.txt
+/probe.txt
+/README.local-history.md
+/assets/studio-preview.png
+/assets/InspectWindow.ps1
+*.tmp
+
+# Credentials and local settings
+.env
+.env.*
+*.pfx
+*.p12
+settings.xml
